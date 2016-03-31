@@ -1,2 +1,37 @@
-<a href="/lorem-ipsum">Lorem-Ipsum</a><br>
-<a href="/random-user">Random-User</a>
+@extends('master')
+
+@section('description')
+	<h2>
+		Hello, world!
+	</h2>
+	<p>
+		This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+	</p>
+@stop
+
+
+
+@section('results')
+	<div class="col-md-6">
+		<h2>
+			Heading
+		</h2>
+		<p>
+			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+		</p>
+		<p>
+			<a class="btn" href="#">View details »</a>
+		</p>
+	</div>
+	<div class="col-md-6">
+		<h2>
+			Heading
+		</h2>
+		<p>
+			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+		</p>
+		<p>
+			<a class="btn" href="#">View details »</a>
+		</p>
+	</div>
+@stop
