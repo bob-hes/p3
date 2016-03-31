@@ -2,7 +2,7 @@
 
 Live Site: [p3.bobsaludo.me](http://p3.bobsaludo.me)
 
-[Video Demo]
+[Video Demo](https://www.youtube.com/watch?v=UtCwQLEJnHM&feature=youtu.be)
 
 In developing sites, having dummy data would help in filling up elements for checking spacing and layout fit. Dummy data would also be great for QA database servers. Below and above, you will find links to a Lorem Ipsum Generator and a Random User Generator for those purposes.
 
