@@ -25,7 +25,7 @@
 			<a href="/random-user">Random User Generator</a>
 		</h2>
 		<p>
-			You want to test your database, but you have no data records. Also, manually making up records is tedious, and you want to have a lot of data. Why not use this Random User Generator to fill your database with placeholder records.
+			You want to test your database, but you have no data records. Also, manually making up records is tedious, and you want to have a lot of data. Why not use this Random User Generator to fill your database with placeholder records?
 		</p>
 	</div>
 @stop

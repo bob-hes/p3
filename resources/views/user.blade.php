@@ -16,7 +16,7 @@
 	    <label for="export">Export to Excel</label>
 	    <input type="checkbox" id="export" name="export">
 	    <br>
-	    <input type='submit' value='Submit'>
+	    <input type='submit' value='Generate'>
 	</form>
 
 	@if(count($errors) > 0)

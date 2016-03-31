@@ -14,7 +14,7 @@
 		    <input type='number' id="paragraphCount" name='paragraphCount' max="99" min="1" value='5'>
 		    <br>
 		    
-		    <input type='submit' value='Submit'>
+		    <input type='submit' value='Generate'>
 		</div>
 	</form>
 
