@@ -30,9 +30,9 @@ Route::group(['middleware' => ['web']], function () {
 
 
 	Route::get("lorem-ipsum", "LoremIpsumController@getIndex");
-	Route::post("lorem-ipsum", "LoremIpsumController@postShow");
+	Route::post("lorem-ipsum", "LoremIpsumController@postText");
 
 	Route::get("random-user", "RandomUserController@getIndex");
-	Route::post("random-user", "RandomUserController@postShow");
+	Route::post("random-user", "RandomUserController@postUsers");
 
 });

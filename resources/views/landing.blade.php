@@ -2,10 +2,10 @@
 
 @section('description')
 	<h2>
-		Hello, world!
+		Developer's Best Friend
 	</h2>
 	<p>
-		This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+		In developing sites, having dummy data would help in filling up elements for checking spacing and layout fit. Dummy data would also be great for QA database servers. Below and above, you will find links to a Lorem Ipsum Generator and a Random User Generator for those purposes. Made by Bob Saludo.
 	</p>
 @stop
 
@@ -14,24 +14,18 @@
 @section('results')
 	<div class="col-md-6">
 		<h2>
-			Heading
+			<a href="/lorem-ipsum">Lorem Ipsum Generator</a>
 		</h2>
 		<p>
-			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-		</p>
-		<p>
-			<a class="btn" href="#">View details »</a>
+			Sometimes in web design, you need to fill in those div and p blocks with text, but you have no content yet. This Lorem Ipsum Generator will create fill-in text you can copy and paste as textual placeholders for design.
 		</p>
 	</div>
 	<div class="col-md-6">
 		<h2>
-			Heading
+			<a href="/random-user">Random User Generator</a>
 		</h2>
 		<p>
-			Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-		</p>
-		<p>
-			<a class="btn" href="#">View details »</a>
+			You want to test your database, but you have no data records. Also, manually making up records is tedious, and you want to have a lot of data. Why not use this Random User Generator to fill your database with placeholder records.
 		</p>
 	</div>
 @stop

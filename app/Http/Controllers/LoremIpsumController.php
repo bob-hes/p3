@@ -9,16 +9,16 @@ use Badcow\LoremIpsum\Generator;
 class LoremIpsumController extends Controller {
 
     /**
-    * Responds to requests to GET /books
+    * Initial page
     */
     public function getIndex() {
         return view("lorem");
     }
 
     /**
-     * Responds to requests to GET /books/show/{id}
+     * Posts the results
      */
-    public function postShow(Request $request) {
+    public function postText(Request $request) {
     	
     	$this->validate($request, [
         	'paragraphCount' => 'numeric|required|min:1|max:99',
