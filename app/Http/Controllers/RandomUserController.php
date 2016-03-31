@@ -27,6 +27,6 @@ class RandomUserController extends Controller {
             $users[] = $faker->unique()->name;
         }
 
-        return implode("<p>", $users);
+        return view("user", ["userdata" => $users]);
     }
 }

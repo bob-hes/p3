@@ -21,6 +21,7 @@ class LoremIpsumController extends Controller {
     public function postShow(Request $request) {
     	$paraNum = $request->input('paraNum');
     	$gen = new Generator();
-        return implode("<p>", $gen->getParagraphs(5));
+    	$para = $gen->getParagraphs($paraNum);
+        return view("lorem", ["para" => $para]);
     }
 }
