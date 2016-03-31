@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -27,5 +23,16 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+
+	Route::get('/', function () {
+	    return view('landing');
+	});
+
+
+	Route::get("lorem-ipsum", "LoremIpsumController@getIndex");
+	Route::post("lorem-ipsum", "LoremIpsumController@postShow");
+
+	Route::get("random-user", "RandomUserController@getIndex");
+	Route::post("random-user", "RandomUserController@postShow");
+
 });
